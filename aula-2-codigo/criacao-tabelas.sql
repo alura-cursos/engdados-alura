@@ -12,7 +12,7 @@ CREATE TABLE cobranca_paciente(
     media_custos_cobertos NUMERIC NOT NULL,
     media_pagamento_total NUMERIC NOT NULL,
     media_gastos_cuidados NUMERIC NOT NULL
-)
+);
 
 SELECT * FROM cobranca_paciente;
 
@@ -49,4 +49,4 @@ CREATE TABLE dados_analises(
     pior_concavidade_pontos NUMERIC NOT NULL,
     pior_simetria NUMERIC NOT NULL,
     pior_dimensao_fractal NUMERIC NOT NULL
-)
+);
